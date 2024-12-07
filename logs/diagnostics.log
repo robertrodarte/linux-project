@@ -1,0 +1,44 @@
+Running Diagnostics -()
+Checking device connectivity:
+8.8.8.8 is reachable
+Disk Usage:
+Filesystem             Size  Used Avail Use% Mounted on
+devtmpfs               4.0M     0  4.0M   0% /dev
+tmpfs                  1.8G     0  1.8G   0% /dev/shm
+tmpfs                  732M  9.2M  723M   2% /run
+/dev/mapper/rhel-root   17G  5.3G   12G  31% /
+/dev/sda1              960M  347M  614M  37% /boot
+tmpfs                  366M  100K  366M   1% /run/user/1000
+MEMORY USAGE:
+               total        used        free      shared  buff/cache   available
+Mem:            3658        1215        1736          24         959        2443
+Swap:           2047           0        2047
+sshd is running
+1.1.1.1 is reachable
+Disk Usage:
+Filesystem             Size  Used Avail Use% Mounted on
+devtmpfs               4.0M     0  4.0M   0% /dev
+tmpfs                  1.8G     0  1.8G   0% /dev/shm
+tmpfs                  732M  9.2M  723M   2% /run
+/dev/mapper/rhel-root   17G  5.3G   12G  31% /
+/dev/sda1              960M  347M  614M  37% /boot
+tmpfs                  366M  100K  366M   1% /run/user/1000
+MEMORY USAGE:
+               total        used        free      shared  buff/cache   available
+Mem:            3658        1215        1736          24         959        2443
+Swap:           2047           0        2047
+sshd is running
+192.168.1.1 is reachable
+Disk Usage:
+Filesystem             Size  Used Avail Use% Mounted on
+devtmpfs               4.0M     0  4.0M   0% /dev
+tmpfs                  1.8G     0  1.8G   0% /dev/shm
+tmpfs                  732M  9.2M  723M   2% /run
+/dev/mapper/rhel-root   17G  5.3G   12G  31% /
+/dev/sda1              960M  347M  614M  37% /boot
+tmpfs                  366M  100K  366M   1% /run/user/1000
+MEMORY USAGE:
+               total        used        free      shared  buff/cache   available
+Mem:            3658        1215        1736          24         959        2443
+Swap:           2047           0        2047
+sshd is running
