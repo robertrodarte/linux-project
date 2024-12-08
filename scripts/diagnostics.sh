@@ -8,11 +8,12 @@ DEVICES_FILE=~/linux_project/configs/devices.txt # Sets DEVICES_FILE to file wit
 # An array of services to check 
 SERVICES=("sshd" "httpd")
 
+echo "Running Diagnostics - $(date)"
 # Base script to automate 
 # -----------------------------------------
 # echo : Ouputs text to a file or terminal 
 # $(date) : Runs the date command to get the current date and time
-# > : Redirects the output to the file specified by $LOG_FILE. If the file exists, it overwrites. 
+# > : Redirects the output to the file specified by $LOG_FILE. If the file exists, it overwrites.
 echo "Running Diagnostics - $(date)" > $LOG_FILE
 
 # Test Device Connectivity 
@@ -44,7 +45,7 @@ while IFS= read -r device; do
 	free -m >> $LOG_FILE
 	
 	# Iterate through each service in the array 
-	for service in "$SERVICES"; do
+	for service in "${SERVICES[@]}"; do
 		# Checks if the service is runnning 
 		# --quiet : supresses the output to the terminal; exit code used instead
 		systemctl is-active --quiet $service
