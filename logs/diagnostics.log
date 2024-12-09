@@ -1,21 +1,11 @@
-Running Diagnostics - Sat Dec  7 05:20:07 PM PST 2024
+Running Diagnostics - Sun Dec  8 05:58:35 PM PST 2024
+
 Checking device connectivity:
 8.8.8.8 is reachable
-Disk Usage:
-Filesystem             Size  Used Avail Use% Mounted on
-devtmpfs               4.0M     0  4.0M   0% /dev
-tmpfs                  1.8G     0  1.8G   0% /dev/shm
-tmpfs                  732M  9.2M  723M   2% /run
-/dev/mapper/rhel-root   17G  5.4G   12G  32% /
-/dev/sda1              960M  347M  614M  37% /boot
-tmpfs                  366M  120K  366M   1% /run/user/1000
-MEMORY USAGE:
-               total        used        free      shared  buff/cache   available
-Mem:            3658        1240        1820          24         841        2418
-Swap:           2047           0        2047
-sshd is running
-ERROR: httpd is not running
 1.1.1.1 is reachable
+192.168.1.1 is reachable
+
+Running System Memory Check - Sun Dec  8 05:58:41 PM PST 2024
 Disk Usage:
 Filesystem             Size  Used Avail Use% Mounted on
 devtmpfs               4.0M     0  4.0M   0% /dev
@@ -23,25 +13,12 @@ tmpfs                  1.8G     0  1.8G   0% /dev/shm
 tmpfs                  732M  9.2M  723M   2% /run
 /dev/mapper/rhel-root   17G  5.4G   12G  32% /
 /dev/sda1              960M  347M  614M  37% /boot
-tmpfs                  366M  120K  366M   1% /run/user/1000
+tmpfs                  366M  100K  366M   1% /run/user/1000
 MEMORY USAGE:
                total        used        free      shared  buff/cache   available
-Mem:            3658        1240        1820          24         841        2418
+Mem:            3658        1226        1909          24         774        2432
 Swap:           2047           0        2047
-sshd is running
-ERROR: httpd is not running
-ERROR: 192.168.1.1 is unreachable
-Disk Usage:
-Filesystem             Size  Used Avail Use% Mounted on
-devtmpfs               4.0M     0  4.0M   0% /dev
-tmpfs                  1.8G     0  1.8G   0% /dev/shm
-tmpfs                  732M  9.2M  723M   2% /run
-/dev/mapper/rhel-root   17G  5.4G   12G  32% /
-/dev/sda1              960M  347M  614M  37% /boot
-tmpfs                  366M  120K  366M   1% /run/user/1000
-MEMORY USAGE:
-               total        used        free      shared  buff/cache   available
-Mem:            3658        1240        1820          24         841        2418
-Swap:           2047           0        2047
+
+Running Service Check - Sun Dec  8 05:58:41 PM PST 2024
 sshd is running
 ERROR: httpd is not running
